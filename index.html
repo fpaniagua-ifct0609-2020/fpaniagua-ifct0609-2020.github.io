@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function validar(){
+            var email = document.getElementById("email").value;
+            var pwd = document.getElementById("micontrasenya").value;
+            if (email=="x@gmail.com" && pwd=="patata"){
+                window.location.href="cv.html";
+            } else {
+                alert("IMPOSTOR");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="">
+        <input type="email" name="" id="email" placeholder="Correo electrónico">
+        <input type="password" name="" id="micontrasenya">
+        <input type="button" value="Validar" onclick="validar()">
+    </form>
+</body>
+</html>
