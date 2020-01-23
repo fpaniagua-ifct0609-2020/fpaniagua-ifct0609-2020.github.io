@@ -1,0 +1,53 @@
+/*
+Selector universal (todos) *
+Selector de tipo (div, h1, input, h2, span, p,...)
+Selector de clase ( .nombreDeClase)
+Selector de identificador ( #id )
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: orange;
+}
+
+#cuadroPrincipal { /* El elemento con id cuadroPrincipal */
+    width: 20em;
+    margin: auto;
+
+    background-color: white;
+    padding:20px;
+}
+
+.botonazul { /* Los elementos de la clase .botonazul */
+    background-color: turquoise;
+    color:white;
+}
+
+#cuadroPrincipal p {/* Los párrafos dentro de el elemento con id cuadroPrincipal */
+    text-align: center;
+}
+
+.ancho100 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.textoChico {
+    font-size: 0.6em;
+}
+
+.fondoGris {
+    background-color: rgb(233, 233, 233);
+}
+
+input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(210,210,210);
+}

@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Document</title>
     <script>
-        function validar(){
+        function validar() {
             var email = document.getElementById("email").value;
             var pwd = document.getElementById("micontrasenya").value;
-            if (email=="x@gmail.com" && pwd=="patata"){
-                window.location.href="cv.html";
+            if (email == "x@gmail.com" && pwd == "patata") {
+                window.location.href = "cv.html";
             } else {
                 alert("IMPOSTOR");
             }
         }
     </script>
 </head>
+
 <body>
-    <form action="" method="">
-        <input type="email" name="" id="email" placeholder="Correo electrónico">
-        <input type="password" name="" id="micontrasenya">
-        <input type="button" value="Validar" onclick="validar()">
-    </form>
+    <div id="cuadroPrincipal">
+        <p>Login Form</p>
+        <p class="textoChico">Login to access your dashboard</p>
+        <form action="" method="">
+            <input class="ancho100 fondoGris" type="email" name="" id="email" placeholder="Correo electrónico">
+            <input class="ancho100 fondoGris" type="password" name="" id="micontrasenya">
+            <input class="ancho100 botonazul" type="button" value="Validar" onclick="validar()">
+        </form>
+        <p class="textoChico">Don't have an account? Sign Up</p>
+    </div>
 </body>
+
 </html>
