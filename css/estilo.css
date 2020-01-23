@@ -54,3 +54,7 @@ input {
     border-style: solid;
     border-color: rgb(210,210,210);
 }
+
+#loginTitle {
+    font-weight: bold;
+}
