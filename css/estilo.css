@@ -25,6 +25,9 @@ body {
 
 .botonazul { /* Los elementos de la clase .botonazul */
     background-color: turquoise;
+    width: 100%;
+    margin: 0px;
+    padding: 5%;
     color:white;
 }
 
@@ -33,8 +36,8 @@ body {
 }
 
 .ancho100 {
-    width: 100%;
-    padding: 5px;
+    width: 90%;
+    padding: 5%;
     margin-bottom: 10px;
 }
 
@@ -47,7 +50,7 @@ body {
 }
 
 input {
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     border-color: rgb(210,210,210);
 }
