@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/estilo.css">
+	<script type="text/javascript" src="./js/juego.js"></script>
+	<title>SuperCICECars</title>
+</head>
+<body onload="inicializar()" onkeyup="capturarPulsacion(event)">
+	<div>
+		<img id="logo" src="./images/logo.png">
+	</div>
+	<div>
+		<img id="player1" class="player" src="./images/f1_1.png" onmouseenter="zoom(1)" onmouseleave="antizoom(1)">
+	</div>
+	<div>
+		<img id="player2" class="player" src="./images/f1_2.png" onmouseenter="zoom(2)" onmouseleave="antizoom(2)">
+	</div>
+	<div>
+		<H1 id="campeon"></H1>
+	</div>
+
+	<div id="meta">a</div>
+	
+	<audio id="ap" controls>
+  		<source src="./audios/aplausos.wav" type="audio/wav">
+	</audio> 
+
+</body>
+</html>

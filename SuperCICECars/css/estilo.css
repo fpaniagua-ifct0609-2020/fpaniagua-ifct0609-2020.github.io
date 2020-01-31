@@ -1,0 +1,19 @@
+.player {
+	width: 250px;
+
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-ms-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+
+#meta {
+	position: absolute;
+	top: 50px;
+	left: 750px;
+	width: 20px;
+	height: 200px;
+	background-color: black;
+}
+
