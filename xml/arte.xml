@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE arte [
+  <!ELEMENT arte (obra*)>
+  <!ELEMENT obra (museo, periodo, imagen)>
+  <!ATTLIST obra titulo CDATA #REQUIRED>
+  <!ATTLIST obra autor CDATA #REQUIRED>
+  <!ATTLIST obra anyo CDATA #REQUIRED>
+  <!ELEMENT museo (#PCDATA)>
+  <!ELEMENT periodo (#PCDATA)>
+  <!ELEMENT imagen (#PCDATA)>
+]>
+<arte>
+    <obra titulo="El sueño de la razón produce monstruos" autor="Francisco de Goya" anyo="1799">
+        <museo>Colección privada</museo>
+        <periodo>Romanticismo</periodo>
+        <imagen>https://4.bp.blogspot.com/-g3edm-yfxc8/TyhGjYUdqrI/AAAAAAAACoM/LBwkyUaVaqc/s1600/el-sueno-de-la-razon-produce-monstruos.jpg</imagen>
+    </obra>
+    <obra titulo="Las meninas" autor="Diego Velázquez" anyo="1656">
+        <museo>Museo del Prado</museo>
+        <periodo>Barroco</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/9/99/Las_Meninas_01.jpg</imagen>
+    </obra>
+    <obra titulo="Baile en el Moulin de la Galette" autor="Pierre-Auguste Renoir" anyo="1876">
+        <museo>Musée d'Orsay</museo>
+        <periodo>Impresionismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg</imagen>
+    </obra>
+    <obra titulo="La condesa de Vilches" autor="Federico de Madrazo" anyo="1853">
+        <museo>Museo del Prado</museo>
+        <periodo>Romanticismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6d/Amalia_de_Llano_y_Dotres%2C_condesa_de_Vilches_%28Federico_de_Madrazo%29.jpg</imagen>
+    </obra>
+    <obra titulo="Cabeza de Mujer llorando con pañuelo III" autor="Diego Velazquez" anyo="1937">
+	    <museo>Museo del Reina Sofia</museo>
+	    <periodo>Cubismo</periodo>
+	    <imagen>https://static3.museoreinasofia.es/sites/default/files/obras/DE00106.jpg</imagen>
+    </obra>
+    <obra titulo="La persistencia de la memoria" autor="Salvador Dalí" anyo="1931">
+        <museo>Moma de Nueva York</museo>
+        <periodo>Surrealismo</periodo>
+        <imagen>https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbnljLTItMjY4LmpwZyIsInJlc2l6ZSwxNTAwfGZvcm1hdCx3ZWJwIl19.QS0RudqedbRUixY0Z0mD5kka__rAwLVT2U4XTH-dgFk.webp</imagen>
+    </obra>
+    <obra titulo = "El jardín de las delicias" autor ="El Bosco" anyo="1500">
+        <museo>Museo del Prado</museo>
+        <periodo>Medieval</periodo>
+        <imagen>https://commons.wikimedia.org/wiki/File:El_jard%C3%ADn_de_las_Delicias,_de_El_Bosco.jpg</imagen>
+    </obra>
+    <obra titulo = "El Beso" autor ="Gustav Klimt" anyo="1907">
+        <museo>Österreichische Galerie Belvedere</museo>
+        <periodo>Modernismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/290px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg</imagen>
+    </obra>
+    <obra titulo="Las tres gracias" autor="Peter Paul Rubens" anyo="1630-1635">
+        <museo>Museo del Prado</museo>
+        <periodo>Barroco</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/The_Three_Graces%2C_by_Peter_Paul_Rubens%2C_from_Prado_in_Google_Earth.jpg/300px-The_Three_Graces%2C_by_Peter_Paul_Rubens%2C_from_Prado_in_Google_Earth.jpg</imagen>
+    </obra>
+    <obra titulo="El grito" autor="Edvard Munch" anyo="1893">
+        <museo>Galería Nacional de Noruega</museo>
+        <periodo>Expresionismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png</imagen>
+    </obra>
+    <obra titulo="Los girasoles" autor="Vincent van Gogh" anyo="1888">
+        <museo>Neue Pinakothek</museo>
+        <periodo>Postimpresionismo</periodo>
+        <imagen>https://viajes.nationalgeographic.com.es/medio/2014/01/31/van_gogh_museum_449x593.jpg</imagen>
+    </obra>
+    <obra titulo="Japanesse Bridge" autor="Claude Monet" anyo="1899">
+        <museo>Princeton University Art Museum</museo>
+        <periodo>Romanticismo</periodo>
+        <imagen>https://images85.fotosik.pl/489/cbdb2737172d3b15.jpg</imagen>
+    </obra>
+    <obra titulo="Saturno devorando a su hijo" autor="Francisco de Goya" anyo="1819">
+        <museo>Museo del Prado</museo>
+        <periodo>Expresionismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg</imagen>
+    </obra>
+    <obra titulo="El Guernica" autor="Pablo Picasso" anyo="1937">
+        <museo>Museo Reina Sofía</museo>
+        <periodo>Cubismo</periodo>
+        <imagen>https://static5.museoreinasofia.es/sites/default/files/obras/DE00050.jpg</imagen>
+    </obra>
+    <obra titulo="La Rendición de Breda" autor="Diego Velázquez" anyo="1635">
+        <museo>Museo del Prado</museo>
+        <periodo>El bueno</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Vel%C3%A1zquez_-_de_Breda_o_Las_Lanzas_%28Museo_del_Prado%2C_1634-35%29.jpg/800px-Vel%C3%A1zquez_-_de_Breda_o_Las_Lanzas_%28Museo_del_Prado%2C_1634-35%29.jpg</imagen>
+    </obra>
+    <obra titulo="El Moisés" autor="Miguel Ángel" anyo="1509">
+        <museo>Iglesia San Pietro in Vincoli</museo>
+        <periodo>Gotico tardio</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/7/70/%27Moses%27_by_Michelangelo_JBU160.jpg</imagen>
+    </obra>
+    <obra titulo="Las meninas" autor="Picasso" anyo="1957">
+        <museo>Museo del Prado</museo>
+        <periodo>Cubismo</periodo>
+        <imagen>https://1.bp.blogspot.com/-9cLIiM0jU1Y/XTAn_eUACOI/AAAAAAAAH9w/wB26yEJ6FOMbWYRyfRtpLqxl6zKgAKZHQCLcBGAs/s640/meninas.jpg</imagen>
+    </obra>
+    <obra titulo="Noche" autor="Antonio López" anyo="2008">
+        <museo>Madrid Puerta Atocha</museo>
+        <periodo>Hiperrealismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/6/61/D%C3%ADa_y_Noche_%28Antonio_L%C3%B3pez%29_Madrid_02.jpg</imagen>
+    </obra>
+    <obra titulo="El pensador" autor= "Auguste Rodin" anyo="1881">
+        <museo>Museo de Artes Decorativas de París</museo>
+        <periodo>Impresionismo</periodo>
+        <imagen>https://es.wikipedia.org/wiki/El_pensador#/media/Archivo:El_pensador-Rodin-Caixaforum-2.jpg</imagen>
+    </obra>
+    <obra titulo="Éxtasis de Santa Teresa" autor= "Gian Lorenzo Bernini" anyo="1647-1652">
+        <museo>Capilla de Cornaro</museo>
+        <periodo>Barroco</periodo>
+        <imagen>https://www.artehistoria.com/sites/default/files/styles/full_horizontal/public/imagenobra/BEE27684.jpg?itok=W-RJXWeO</imagen>
+    </obra>
+    <obra titulo="Virgen Velada" autor="Gionvanni Strazza" anyo="1850">
+        <museo>Capilla Sansevero</museo>
+        <periodo>siglo XIX</periodo>
+        <imagen>https://culturainquieta.com/images/Esculturas_veladas/lavirgenvelada-culturainquieta.jpg</imagen>
+    </obra>
+    <obra titulo="Relatividad" autor="M. C. Escher" anyo="1931">
+        <museo>Desconocido</museo>
+        <periodo>Arte Nuevo</periodo>
+        <imagen>https://painting-planet.com/images2/relatividad-maurits-escher_1.jpg</imagen>
+    </obra>
+    <obra titulo="Ascending and Descending" autor="M.C. Escher" anyo="1960">
+        <museo>Museo de Indianapolis</museo>
+        <periodo>Surrealismo</periodo>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/6/66/Ascending_and_Descending.jpg</imagen>
+    </obra>
+    <obra titulo="La tentación de San Antonio" autor="Salvador Dalí" anyo="1946">
+        <museo>Museos Reales de Bellas Artes</museo>
+        <periodo>Surrealismo</periodo>
+        <imagen>https://www.todocuadros.es/imagenes/pintores/dali/tentacion-san-antonio-dali-cuadro.jpg</imagen>
+    </obra>
+    <obra titulo="Paseo a orillas del mar" autor="Joaquin Sorolla" anyo="1909">
+        <museo>Museo Sorolla</museo>
+        <periodo>Impresionismo</periodo>
+        <imagen>https://viajes.nationalgeographic.com.es/medio/2016/08/09/paseo-orillas-_7f9d9940.jpg</imagen>
+    </obra>
+    <obra titulo="Muchacha en la ventana" autor="Salvador Dali" anyo="1925">
+        <museo>Reinas Sofia</museo>
+        <periodo>Surresalismo</periodo>
+        <imagen>https://www.artelista.com/obra/5606143583254168-copia-muchacha-en-la-ventana-dali.html</imagen>
+   </obra>
+</arte>
