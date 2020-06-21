@@ -1,0 +1,33 @@
+[
+    {
+        "titulo":"Onward",
+        "directores":[
+            "Dan Scanlon"
+        ],
+        "anyo":2020
+    },
+    {
+        "titulo":"Las golondrinas de Kabul",
+        "directores":
+        [
+            "Zabou Breitman",
+            "Eléa Gobbé-Mévellec"
+        ],
+        "anyo":2020
+    },
+    {
+        "titulo":"El lago del ganso salvaje",
+        "directores":[
+            "Diao Yinan"
+        ],
+        "anyo":2020
+    },
+    {
+        "titulo":"Bacurau",
+        "directores":[
+            "Juliano Dornelles",
+            "Kleber Mendonça Filho"
+        ],
+        "anyo":2020
+    }
+]
