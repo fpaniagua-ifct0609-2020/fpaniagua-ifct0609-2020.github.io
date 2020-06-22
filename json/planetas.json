@@ -1,0 +1,14 @@
+[
+    {
+        "nombre":"La Tierra",
+        "diametro":12742,
+        "numerolunas":1,
+        "vida":true
+    },
+    {
+        "nombre":"Mercurio",
+        "diametro":4879.4,
+        "numerolunas":0,
+        "vida":false
+    }
+]
