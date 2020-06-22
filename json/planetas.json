@@ -1,14 +1,56 @@
 [
     {
+        "nombre":"Mercurio",
+        "diametro":4879.4,
+        "numerolunas":0,
+        "vida":"no"
+    },
+    {
+        "nombre":"Venus",
+        "diametro":12104,
+        "numerolunas":0,
+        "vida":"no"
+    },
+    {
         "nombre":"La Tierra",
         "diametro":12742,
         "numerolunas":1,
         "vida":"si"
     },
     {
-        "nombre":"Mercurio",
-        "diametro":4879.4,
-        "numerolunas":0,
+        "nombre":"Marte",
+        "diametro":6770,
+        "numerolunas":2,
+        "vida":"si"
+    },
+    {
+        "nombre":"Jupiter",
+        "diametro":139820,
+        "numerolunas":67,
+        "vida":"no"
+    },
+    {
+        "nombre":"Saturno",
+        "diametro":116460,
+        "numerolunas":81,
+        "vida":"no"
+    },
+    {
+        "nombre":"Urano",
+        "diametro":50724,
+        "numerolunas":27,
+        "vida":"no"
+    },
+    {
+        "nombre":"Neptuno",
+        "diametro":49244,
+        "numerolunas":13,
+        "vida":"no"
+    },
+    {
+        "nombre":"Plutón",
+        "diametro":2376.6,
+        "numerolunas":5,
         "vida":"no"
     }
 ]
