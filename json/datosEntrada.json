@@ -1,0 +1,18 @@
+[
+    {
+        "nombre":"PC1",
+        "precio":10
+    },
+    {
+        "nombre":"PC2",
+        "precio":20
+    },
+    {
+        "nombre":"PC3",
+        "precio":30
+    },
+    {
+        "nombre":"PC4",
+        "precio":40
+    }
+]
