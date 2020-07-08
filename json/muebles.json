@@ -1,0 +1,17 @@
+[
+    {
+        "nombre":"Mesa 1",
+        "descripcion":"Mesa Spiderman",
+        "precio":10
+    },
+    {
+        "nombre":"Mesa 2",
+        "descripcion":"Mesa Batman",
+        "precio":12
+    },
+    {
+        "nombre":"Mesa 3",
+        "descripcion":"Mesa Hulk",
+        "precio":14
+    }
+]
